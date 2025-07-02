@@ -62,4 +62,4 @@ my-app/
 
 ## 🔗 Live Demo
 
-[Click here to view live](https://job-listing.vercel.app)
+[Click here to view live](https://job-listing-alpha-orpin.vercel.app/)
