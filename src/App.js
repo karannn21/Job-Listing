@@ -258,7 +258,7 @@ function App() {
   };
   const overlayStyle = {
     backgroundColor: "rgba(255, 255, 255, 0.7)",
-    position: "absolute",
+    position: "sticky",
     top: 0,
     left: 0,
     right: 0,
