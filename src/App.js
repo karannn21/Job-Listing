@@ -254,10 +254,10 @@ function App() {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
-    minHeight: "100vh", // Ensure full height
+    minHeight: "100vh",
   };
   const overlayStyle = {
-    backgroundColor: "rgba(255, 255, 255, 0.7)", // semi-white overlay
+    backgroundColor: "rgba(255, 255, 255, 0.7)",
     position: "absolute",
     top: 0,
     left: 0,
