@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Coders Boutique - Job Listing App 💼
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive job listing application built using **React.js** and **Bootstrap 5**. Users can search, filter, and view detailed job listings with smooth routing and clean UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔍 **Search Bar**  
+  Search jobs by **job title** or **company name**  
+  ➤ If the input is invalid, a message appears: _"Oops! We couldn't find any job listings that match your
+  search. Try adjusting your filters or check back later for
+  new opportunities!"_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎯 **Filter by Job Type**  
+  Select from dropdown: `All`, `Full-time`, `Part-time`, `Remote`, `Contract`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📦 **Job Cards**
 
-### `npm test`
+  - Built with Bootstrap
+  - Clicking a card opens detailed job page (using React Router)
+  - Each card has an **Apply** button — it also opens the detailed page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🌐 **Routing with React Router**  
+  Seamless navigation to job details page using dynamic route: `/jobs/:id`
 
-### `npm run build`
+- 📱 **Responsive UI**  
+  Mobile-friendly layout using Bootstrap Grid and responsive components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🎨 **UI Enhancements**  
+  Background image, transparent cards, hover effects, and icons (Bootstrap Icons)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Tech Stack
 
-### `npm run eject`
+- ⚛️ React.js (Functional Components + Hooks)
+- 📦 React Router DOM
+- 🎨 Bootstrap 5 + Bootstrap Icons
+- 🖼️ Custom CSS for styling
+- 🔗 Deployed on Vercel (Live link below)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+my-app/
+├── public/
+│ └── background.png
+├── src/
+│ ├── Components/
+│ │ ├── Filter.js
+│ │ ├── JobCard.js
+│ │ ├── JobDetails.js
+│ │ ├── JobListing.js
+│ │ └── Buttons.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+├── package.json
+└── README.md
